@@ -40,7 +40,7 @@ public class Tamgiac {
 
         public static void main(String[] args) {
             // Tạo một đối tượng Tamgiac
-            Tamgiac tamgiac = new Tamgiac(3, 4, 5);
+            Tamgiac tamgiac = new Tamgiac(10, 4, 5);
 
             // Kiểm tra xem 3 giá trị có phải là 3 cạnh của tam giác hay không
             System.out.println("Có phải là tam giác? " + tamgiac.laTamGiac());
